@@ -1,135 +1,105 @@
-# Academic Personal Page README — Design Spec
+<div align="center">
 
-**Date**: 2026-05-29
-**Status**: Approved
+# <!-- REPLACE: Your Full Name -->Yuechuan Chen
 
-## Overview
+**<!-- REPLACE: Undergraduate -->Undergraduate** @ <!-- REPLACE: Your Institution -->Sun Yat-sen University
 
-Transform a bare-bones placeholder `README.md` into a polished academic personal page for a GitHub profile. The output is a single-file template the user fills in by searching for `REPLACE:` markers and replacing them with real content.
+<!-- REPLACE: Add or remove badge links as needed -->
+[![Email](https://img.shields.io/badge/Email-yourname%40example.com-92400e?style=flat-square&logo=gmail)](mailto:chenych227@mail2.sysu.edu.cn)
+[![Website](https://img.shields.io/badge/Homepage-yourname.github.io-92400e?style=flat-square&logo=google-chrome)](https://yourname.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-yourname-92400e?style=flat-square&logo=github)](https://github.com/yourname)
+[![Google Scholar](https://img.shields.io/badge/Scholar-YourName-92400e?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=REPLACE)
 
-## Constraints
+</div>
 
-- **Single file**: `README.md` only, no external assets or build step
-- **No custom fonts**: GitHub sanitizes external CSS; rely on the system font stack
-- **No JavaScript**: GitHub strips all JS from rendered READMEs
-- **GitHub-compatible HTML**: Only inline styles on a whitelist of allowed tags work
+---
 
-## Design Decisions
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">About Me</h2>
 
-### Layout: Single Column Academic
+<!-- REPLACE: 2-3 sentences about yourself -->
+I am an undergraduate student majoring in <!-- REPLACE: e.g. Computer Science -->Microelectronic at <!-- REPLACE: Your Institution -->Sun Yat-sen University. My current focus is on <!-- REPLACE: e.g. web development, data analysis -->LLM and Agent. I am open to collaboration and always eager to learn new things.
 
-A vertical stack matching the traditional academic CV format. Each section is a self-contained block with a styled heading and divider.
+---
 
-Section order (top to bottom):
-1. Header (name, role, institution, links)
-2. About Me
-3. Education
-4. Research Interests
-5. Skills
-6. Projects
-7. Publications
-8. Contact
-9. Footer
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Education</h2>
 
-### Color Palette: Warm Scholar
+<!-- REPLACE: Fill in your education details. Add or remove rows as needed. -->
 
-| Role | Hex | Usage |
-|---|---|---|
-| Primary text | `#1c1917` | Body, names |
-| Heading | `#78350f` | Section titles |
-| Accent | `#b45309` | Dividers, links, badges |
-| Muted | `#78716c` | Secondary text, dates |
-| Background | `#fafaf9` | Optional `<table>` / `<div>` backgrounds |
-| Subtle border | `#e7e5e4` | Table borders, separators |
+| Degree | Institution | Period | Notes |
+|--------|------------|--------|-------|
+| **B.Eng. Microelectronic** | <!-- REPLACE: Your University -->Sun Yat-sen University | <!-- REPLACE: 202X - 202X -->2023 - 2027 |  |
 
-### Typography
 
-No custom fonts. Use GitHub's native stack: `-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"`.
+---
 
-- Name: `<h1>` with `font-size: 2em` and warm dark color
-- Subtitle: `<p>` with `font-size: 1em` and muted color
-- Section headings: `<h2>` with amber accent `border-bottom`
-- Body: default markdown paragraph rendering
-- Code/inline tech: backtick-wrapped for GitHub's monospace rendering
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Research Interests</h2>
 
-### Section Specifications
+<!-- REPLACE: 3-5 research topics you are interested in -->
 
-#### 1. Header
-- Centered, name in large warm heading
-- Subtitle line: "Undergraduate Researcher @ [Institution]"
-- Badge row below: GitHub, email, personal website, Google Scholar (icon + link)
+- **<!-- REPLACE: Topic 1 -->LLM** — LLM inference optimization.
 
-#### 2. About Me
-- 2-3 sentence paragraph
-- First line: degree program and institution
-- Second line: current focus and interests
-- Third line: open to collaboration / contact
+---
 
-#### 3. Education
-- Table with columns: Degree | Institution | Period | GPA / Notes
-- Bold the degree name
-- Italicize dates in muted color
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Skills</h2>
 
-#### 4. Research Interests
-- Unordered list of 3-5 topics
-- Each item: bold keyword, dash, brief description
-- Example: **Machine Learning** — focusing on interpretable models and their applications in healthcare.
+**Languages**
 
-#### 5. Skills
-- Three subsections: Languages, Frameworks & Tools, Domains
-- Each as a compact comma-separated list or badge-style inline code spans
+<!-- REPLACE: Your programming languages -->
+`Python` `JavaScript` `TypeScript` `C/C++` `SQL`
 
-#### 6. Projects
-- Each project as a sub-heading (`###`) with:
-  - One-line description
-  - Tech stack in `code` spans
-  - Link to repo (if public)
-- Sorted by recency
+**Frameworks & Tools**
 
-#### 7. Publications
-- Ordered list by year (most recent first)
-- Each entry: authors (bold your name), title, venue, year, link
-- If no publications, include a TBD placeholder line or remove the section entirely (noted with a comment)
+<!-- REPLACE: Frameworks and tools you use -->
+`React` `Node.js` `FastAPI` `Docker` `Git` `VS Code` `Linux`
 
-#### 8. Contact
-- Table or grid of icon + link pairs
-- Email, GitHub, personal website, Google Scholar, LinkedIn
+**Domains**
 
-#### 9. Footer
-- Thin amber line
-- Small muted text: "Last updated: [date]" and a license/attribution note if desired
+<!-- REPLACE: Domains you work in -->
+`Web Development` `Data Analysis` `Machine Learning`
 
-### Template Mechanism
+---
 
-All placeholder text uses HTML comment markers:
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Projects</h2>
 
-```markdown
-<!-- REPLACE: yourname@example.com -->
-yourname@example.com
-```
+<!-- REPLACE: List your projects. Add or remove entries as needed. -->
 
-The user edits by searching `REPLACE:` globally and replacing each occurrence. Sections that may not apply (e.g., Publications if none exist) are wrapped in conditional comments.
+### <!-- REPLACE: Project Name 1 -->Project Alpha
+<!-- REPLACE: Brief description -->A data visualization tool built with Python and Flask that renders interactive dashboards from CSV datasets.
+`Python` `Flask` `D3.js` · [Repo](https://github.com/yourname/project-alpha)
 
-### Files Changed
+### <!-- REPLACE: Project Name 2 -->Project Beta
+<!-- REPLACE: Brief description -->Automated note-taking and knowledge management scripts with NLP-based tag suggestions.
+`Python` `TypeScript` `FastAPI` · [Repo](https://github.com/yourname/project-beta)
 
-| File | Action |
+### <!-- REPLACE: Project Name 3 (remove if not needed) -->Project Gamma
+<!-- REPLACE: Brief description -->A personal academic homepage built with minimal HTML/CSS, deployed via GitHub Pages.
+`HTML` `CSS` · [Repo](https://github.com/yourname/project-gamma)
+
+---
+
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Publications</h2>
+
+<!-- NOTE: If you have no publications yet, you can delete this entire section. -->
+
+1. **<!-- REPLACE: Your Last Name, First Name -->Chen, Y.**, <!-- REPLACE: Co-author 1 -->Doe, J., & <!-- REPLACE: Co-author 2 -->Smith, A. (<!-- REPLACE: 202X -->2025). *<!-- REPLACE: Paper Title -->Title of Your Paper*. In Proceedings of <!-- REPLACE: Venue -->XYZ Conference. [Paper](<!-- REPLACE: DOI or link -->https://doi.org/...)
+
+---
+
+<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Contact</h2>
+
+<!-- REPLACE: Your contact details -->
+
+| | |
 |---|---|
-| `README.md` | Full rewrite — replace placeholder template with polished academic page |
+| **Email** | [<!-- REPLACE: yourname@example.com -->chenych227@mail2.sysu.edu.cn](mailto:yourname@example.com) |
+| **Homepage** | [<!-- REPLACE: https://yourname.github.io -->yourname.github.io](https://yourname.github.io) |
+| **GitHub** | [<!-- REPLACE: github.com/yourname -->github.com/yourname](https://github.com/yourname) |
+| **Google Scholar** | [<!-- REPLACE: Scholar profile URL -->scholar.google.com/...](https://scholar.google.com/citations?user=REPLACE) |
 
-## Template Content Summary
+---
 
-```
-README.md (~120-150 lines)
-├── <!-- REPLACE: --> markers: ~30
-├── Sections: 9
-├── HTML tables: 2 (Education, Contact)
-├── HTML headings/dividers: ~9
-└── Pure markdown body text
-```
+<div align="center">
 
-## Self-Review
+*<!-- REPLACE: Update the date when you edit -->Last updated: May 2026*
 
-- **Placeholder scan**: All `REPLACE:` markers are explicit and searchable. No TBDs remain.
-- **Internal consistency**: Color palette, section order, and typography rules are uniform across all sections.
-- **Scope**: One file, one template. No dependencies, no build step, no external assets.
-- **Ambiguity**: Every placeholder has a concrete example value. Section visibility for Publications is gated with a clear comment.
+</div>
