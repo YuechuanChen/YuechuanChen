@@ -1,14 +1,12 @@
 <div align="center">
 
-# <!-- REPLACE: Your Full Name -->Yuechuan Chen
+# Yuechuan Chen
 
-**<!-- REPLACE: Undergraduate -->Undergraduate** @ <!-- REPLACE: Your Institution -->Sun Yat-sen University
+**Undergraduate** @ Sun Yat-sen University · B.Eng. in Microelectronic Engineering (2023 – 2027)
 
-<!-- REPLACE: Add or remove badge links as needed -->
-[![Email](https://img.shields.io/badge/Email-yourname%40example.com-92400e?style=flat-square&logo=gmail)](mailto:chenych227@mail2.sysu.edu.cn)
-[![Website](https://img.shields.io/badge/Homepage-yourname.github.io-92400e?style=flat-square&logo=google-chrome)](https://yourname.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-yourname-92400e?style=flat-square&logo=github)](https://github.com/yourname)
-[![Google Scholar](https://img.shields.io/badge/Scholar-YourName-92400e?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=REPLACE)
+[![Email](https://img.shields.io/badge/Email-chenych227%40mail2.sysu.edu.cn-92400e?style=flat-square&logo=gmail)](mailto:chenych227@mail2.sysu.edu.cn)
+[![Homepage](https://img.shields.io/badge/Homepage-YuechuanChen.github.io-92400e?style=flat-square&logo=google-chrome)](https://YuechuanChen.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-YuechuanChen-92400e?style=flat-square&logo=github)](https://github.com/YuechuanChen)
 
 </div>
 
@@ -16,27 +14,24 @@
 
 <h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">About Me</h2>
 
-<!-- REPLACE: 2-3 sentences about yourself -->
-I am an undergraduate student majoring in <!-- REPLACE: e.g. Computer Science -->Microelectronic at <!-- REPLACE: Your Institution -->Sun Yat-sen University. My current focus is on <!-- REPLACE: e.g. web development, data analysis -->LLM and Agent. I am open to collaboration and always eager to learn new things.
+I am an undergraduate student majoring in Microelectronic Engineering at Sun Yat-sen University. My current focus is on **LLM and Agent**, with a particular interest in **LLM inference optimization**. I also enjoy working at the intersection of embedded systems and intelligent tooling — from MCU development assistants to automation tools. I am open to collaboration, research opportunities, and always eager to learn new things.
 
 ---
 
 <h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Education</h2>
 
-<!-- REPLACE: Fill in your education details. Add or remove rows as needed. -->
-
-| Degree | Institution | Period | Notes |
-|--------|------------|--------|-------|
-| **B.Eng. Microelectronic** | <!-- REPLACE: Your University -->Sun Yat-sen University | <!-- REPLACE: 202X - 202X -->2023 - 2027 |  |
-
+| Degree | Institution | Period |
+|--------|------------|--------|
+| **B.Eng. Microelectronic Engineering** | Sun Yat-sen University | 2023 – 2027 |
 
 ---
 
 <h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Research Interests</h2>
 
-<!-- REPLACE: 3-5 research topics you are interested in -->
-
-- **<!-- REPLACE: Topic 1 -->LLM** — LLM inference optimization.
+- **LLM** — LLM inference optimization.
+- **LLM Agent** — reasoning, tool use, and autonomous workflows.
+- **Machine Learning / Deep Learning** — fundamentals, hands-on practice, and building with PyTorch.
+- **Embedded AI** — bringing intelligent capability to MCU / ESP32-class hardware.
 
 ---
 
@@ -44,62 +39,57 @@ I am an undergraduate student majoring in <!-- REPLACE: e.g. Computer Science --
 
 **Languages**
 
-<!-- REPLACE: Your programming languages -->
-`Python` `JavaScript` `TypeScript` `C/C++` `SQL`
+`Python` `C/C++` `JavaScript` `TypeScript` `SQL`
 
 **Frameworks & Tools**
 
-<!-- REPLACE: Frameworks and tools you use -->
-`React` `Node.js` `FastAPI` `Docker` `Git` `VS Code` `Linux`
+`PyTorch` `React` `Node.js` `FastAPI` `Docker` `Git` `VS Code` `Linux`
 
 **Domains**
 
-<!-- REPLACE: Domains you work in -->
-`Web Development` `Data Analysis` `Machine Learning`
+`Machine Learning` `LLM & Agents` `Embedded Systems` `Web Development` `Data Analysis`
 
 ---
 
 <h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Projects</h2>
 
-<!-- REPLACE: List your projects. Add or remove entries as needed. -->
+### Notes — Notes for ML/DL and LLM
+Structured learning notes on machine learning, deep learning, and large language models.
+`Markdown` · [Repo](https://github.com/YuechuanChen/Notes)
 
-### <!-- REPLACE: Project Name 1 -->Project Alpha
-<!-- REPLACE: Brief description -->A data visualization tool built with Python and Flask that renders interactive dashboards from CSV datasets.
-`Python` `Flask` `D3.js` · [Repo](https://github.com/yourname/project-alpha)
+### MCU_designer
+A knowledgeable MCU project design assistant that helps plan and structure microcontroller-based projects.
+`C` · [Repo](https://github.com/YuechuanChen/MCU_designer)
 
-### <!-- REPLACE: Project Name 2 -->Project Beta
-<!-- REPLACE: Brief description -->Automated note-taking and knowledge management scripts with NLP-based tag suggestions.
-`Python` `TypeScript` `FastAPI` · [Repo](https://github.com/yourname/project-beta)
+### International_Admission_Advisor
+A CodeX / Claude Code skill — your personal graduate-admission advisor for international applications.
+`Python` · [Repo](https://github.com/YuechuanChen/International_Admission_Advisor)
 
-### <!-- REPLACE: Project Name 3 (remove if not needed) -->Project Gamma
-<!-- REPLACE: Brief description -->A personal academic homepage built with minimal HTML/CSS, deployed via GitHub Pages.
-`HTML` `CSS` · [Repo](https://github.com/yourname/project-gamma)
+### ESP32_TMP102_TempRecorder
+An ESP32-based temperature recorder built around the TMP102 sensor.
+`JavaScript` · [Repo](https://github.com/YuechuanChen/ESP32_TMP102_TempRecorder)
 
----
+### ATMEGA16-ASSISTANT
+An assistant project for the ATmega16 MCU development workflow.
+`C` · 1 star · [Repo](https://github.com/YuechuanChen/ATMEGA16-ASSISTANT)
 
-<h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Publications</h2>
-
-<!-- NOTE: If you have no publications yet, you can delete this entire section. -->
-
-1. **<!-- REPLACE: Your Last Name, First Name -->Chen, Y.**, <!-- REPLACE: Co-author 1 -->Doe, J., & <!-- REPLACE: Co-author 2 -->Smith, A. (<!-- REPLACE: 202X -->2025). *<!-- REPLACE: Paper Title -->Title of Your Paper*. In Proceedings of <!-- REPLACE: Venue -->XYZ Conference. [Paper](<!-- REPLACE: DOI or link -->https://doi.org/...)
+**Forks & References** — [pytorch/pytorch](https://github.com/YuechuanChen/pytorch) · [rpautrat/SuperPoint](https://github.com/YuechuanChen/SuperPoint) · [BetterGI (UI Automation for Genshin Impact)](https://github.com/YuechuanChen/better-genshin-impact)
 
 ---
 
 <h2 style="border-bottom: 2px solid #d4a574; padding-bottom: 4px; color: #78350f;">Contact</h2>
 
-<!-- REPLACE: Your contact details -->
-
 | | |
 |---|---|
-| **Email** | [<!-- REPLACE: yourname@example.com -->chenych227@mail2.sysu.edu.cn](mailto:yourname@example.com) |
-| **Homepage** | [<!-- REPLACE: https://yourname.github.io -->yourname.github.io](https://yourname.github.io) |
-| **GitHub** | [<!-- REPLACE: github.com/yourname -->github.com/yourname](https://github.com/yourname) |
-| **Google Scholar** | [<!-- REPLACE: Scholar profile URL -->scholar.google.com/...](https://scholar.google.com/citations?user=REPLACE) |
+| **Email** | [chenych227@mail2.sysu.edu.cn](mailto:chenych227@mail2.sysu.edu.cn) |
+| **Homepage** | [YuechuanChen.github.io](https://YuechuanChen.github.io) |
+| **GitHub** | [github.com/YuechuanChen](https://github.com/YuechuanChen) |
+| **Location** | Guangzhou, China |
 
 ---
 
 <div align="center">
 
-*<!-- REPLACE: Update the date when you edit -->Last updated: May 2026*
+*Last updated: Sep 2026*
 
 </div>
